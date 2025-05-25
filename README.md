@@ -43,7 +43,7 @@ The `species.csv` file maps model output to rich metadata:
 * `common_name` – Common name (if available)
 * `country`, `continent` – Geographic distribution
 * `genus`, `family`, `snake_sub_family` – Taxonomic classification
-* `poisonous` – Boolean indicating whether the species is venomous
+* `poisonous` – Integer indicating whether the species is venomous (1) or not (0)
 
 ---
 
