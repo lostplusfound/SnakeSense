@@ -2,7 +2,15 @@
 
 **SnakeSense** is an AI-powered snake species classifier designed to identify snake species and determine if a snake is venomous. This initial release includes a trained model exported in both FastAI (`.pkl`) and ONNX (`.onnx`) formats.
 
-> ⚠️ **Disclaimer**: This model is a **work in progress** and is not production-ready. Use with caution, especially in real-world scenarios involving venomous snakes.
+> ⚠️ Disclaimer: This model is a work in progress and not production-ready. No AI model can guarantee 100% accuracy—never rely solely on this tool for snake identification or safety decisions. If bitten by a snake, seek immediate professional medical help. Use this tool cautiously and at your own risk.
+---
+
+## ⚠️ Model File Availability
+
+The model files (`model.pkl` and `model.onnx`) are **larger than 25MB** and thus **not included directly** in this repository due to size limits.
+Please download the latest model files from the **[Releases](https://github.com/lostplusfound/SnakeSense/releases)** page.
+
+Make sure to place the downloaded model files (`model.pkl` and `model.onnx`) in the same directory where you run the inference scripts.
 
 ---
 
